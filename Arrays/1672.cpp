@@ -2,22 +2,25 @@
 #include <vector>
 #include <unordered_map>
 using namespace std;
-{
-    int val =0;
- for (auto i = 0; i < operation.size(); i++)
- {
-     operation[i][]
- }
-    
-}
 
-int main(int argc, char const *argv[])
+class Solution
 {
-    string str = "HEllo";
-    for (auto i : str)
+public:
+    int maximumWealth(vector<vector<int>> &accounts)
     {
-        cout<<i<<"awdad";
+
+        int res = 0;
+
+        for (auto i = 0; i < accounts.size(); i++)
+        {
+            int sum = 0;
+            for (auto j = 0; j < accounts[i].size(); j++)
+            {
+                sum += accounts[i][j];
+            }
+            // ans[i] = sum;
+            res = max(res, sum);
+        }
+        return res;
     }
-    
-    // cout<<str[1];
-}
+};
