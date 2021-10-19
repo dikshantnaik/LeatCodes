@@ -3,10 +3,10 @@
 
 using namespace std;
 
-int main(int argc, char const *argv[])
+int shuffle(vector<int> arr, int n)
 {
-    int n = 3;
-    vector<int> arr = {2, 5, 1, 3, 4, 7};
+    // int n = 3;
+    // vector<int> arr = {2, 5, 1, 3, 4, 7};
     vector<int> ans;
     for (int i = 0; i < n; i++)
     {
@@ -25,5 +25,13 @@ int main(int argc, char const *argv[])
         cout << k << " ";
     }
 
+    return 0;
+}
+
+int main(int argc, char const *argv[])
+{
+    int n = 3;
+    vector<int> arr = {2, 5, 1, 3, 4, 7};
+    shuffle(arr, n);
     return 0;
 }
