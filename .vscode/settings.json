@@ -15,5 +15,10 @@
   "files.associations": {
     "*.c": "c",
     "unordered_map": "cpp"
+  },
+  "files.exclude": {
+    ".gitignore": true,
+    ".vscode": true,
+    "a.out": true
   }
 }
