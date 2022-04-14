@@ -23,7 +23,8 @@
     "unordered_set": "cpp",
     "vector": "cpp",
     "any": "cpp",
-    "system_error": "cpp"
+    "system_error": "cpp",
+    "iostream": "cpp"
   },
   "files.exclude": {
     ".gitignore": true,

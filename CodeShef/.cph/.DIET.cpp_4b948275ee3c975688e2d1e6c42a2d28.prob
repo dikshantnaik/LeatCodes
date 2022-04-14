@@ -1,0 +1,1 @@
+{"name":"Local: DIET","url":"/home/dikshant/Desktop/LeatCode/CodeShef/DIET.cpp","tests":[{"id":1649960023613,"input":"3\n4 5\n7 3 6 5\n3 4\n3 10 10\n3 4\n8 1 1","output":"YES\nNO 1\nNO 3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/dikshant/Desktop/LeatCode/CodeShef/DIET.cpp","group":"local","local":true}
