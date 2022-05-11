@@ -1,0 +1,13 @@
+Firsr word is represntative --
+
+m = decimal 
+n = binary
+o = octal 
+x = hexa
+
+After that a Integer value 
+
+
+Firsr Convert to Decimal 
+Then Check if odd or even id even add L or sustract 
+Then Convert the number to LEtter using ASCI

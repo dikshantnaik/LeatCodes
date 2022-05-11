@@ -33,5 +33,12 @@ int main(int argc, char const *argv[])
     int n = 3;
     vector<int> arr = {2, 5, 1, 3, 4, 7};
     shuffle(arr, n);
+    int arr2[] = {
+        1,
+        23,
+        4,
+        5,
+        5,
+    };
     return 0;
 }
